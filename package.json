@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack src/js/app.js dist/bundle.js",
-    "build:prod": "webpack src/js/app.js dist/bundle.js -p"
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build:prod": "webpack-dev-server ./src/js/app.js dist/bundle.js -p"
   },
   "author": "Chisomo Lungu",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   }
 }
