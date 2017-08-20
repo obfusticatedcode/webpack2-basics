@@ -10,3 +10,7 @@
 ```npm run build```
 * Then if you want to minify/uglify use the flag ```-p```
 ```npm run build:prod```
+
+> Install loaders
+
+* ```npm install css-loader style-loader --save-dev```
