@@ -13,6 +13,5 @@
 
 > Install loaders
 
-* ```npm install sass-loader node-sass css-loader extract-text-webpack-plugin babel-core babel-loader babel-preset-es20
-15 --save-dev
+* ```npm install sass-loader node-sass css-loader extract-text-webpack-plugin babel-core babel-loader babel-preset-es2015 --save-dev
 ```
